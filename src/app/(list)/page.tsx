@@ -10,8 +10,8 @@ export default function Home() {
         <nav>
           <h3><VscVscode/> Visual Studio Code</h3>
           <ul className="global-nav_list">
-            <li><a href="/">VS Code 설치하기</a></li>
-            <li><a href="/">프로젝트 디렉토리 설정하기</a></li>
+            <li><a href="/vscode/p1">VS Code 설치하기</a></li>
+            <li><a href="/vscode/p2">프로젝트 디렉토리 설정하기</a></li>
           </ul>
           <h3><FaHtml5/> HTML</h3>
           <ul className="global-nav_list">
