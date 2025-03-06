@@ -1,7 +1,5 @@
 :root {
   --bg-color: #efefef;
-  --top-height: 40px;
-
 }
 
 @mixin flex-center() {
@@ -24,6 +22,6 @@
 
 @mixin layout-center {
   width: 90%;
-  max-width: 1320px;
+  max-width: 960px;
   margin: 0 auto;
 }

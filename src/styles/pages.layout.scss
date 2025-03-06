@@ -1,0 +1,50 @@
+@import './mixin';
+
+.page {
+  section {
+    margin-top: 30px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    h3 {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      line-height: 48px;
+
+      &::before {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 20px;
+        margin-right: 4px;
+        background-color: #09F;
+        margin-top: 4px;
+      }
+    }
+
+    h4 {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      line-height: 48px;
+    }
+
+    p {
+      a {
+        font-family: 'Noto Sans KR', sans-serif;
+      }
+    }
+
+    ol {
+      list-style: number;
+      padding-left: 20px;
+
+      li {
+        padding: 2px 0;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import PageHeader from "@/src/components/PageHeader";
 
-export default function Html_P5() {
+export default function Html_P6() {
   return (
     <>
     <PageHeader title={"html"} iconType={2} />

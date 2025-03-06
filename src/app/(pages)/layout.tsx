@@ -1,6 +1,8 @@
 import GlobalNav from "@/src/components/GlobalNav";
 import PageHeader from "@/src/components/PageHeader";
 
+import "@/src/styles/pages.layout.scss";
+
 export default function PagesLayout({
   children,
 }: Readonly<{
@@ -8,7 +10,6 @@ export default function PagesLayout({
 }>) {
   return (
     <>
-      <PageHeader title={"VS Code"} iconType={1} />
       {children}
       <GlobalNav />
     </>
