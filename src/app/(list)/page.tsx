@@ -2,7 +2,7 @@ import { VscVscode } from "react-icons/vsc";
 import { FaHtml5, FaCss3Alt, FaChevronDown,FaSass } from "react-icons/fa6";
 import PageHeader from "@/src/components/PageHeader";
 
-export default function Home() {
+export default function List() {
   return (
     <>
       <PageHeader title={"목차"} iconType={0}/>
@@ -10,8 +10,8 @@ export default function Home() {
         <nav>
           <h3><VscVscode/> Visual Studio Code</h3>
           <ul className="global-nav_list">
-            <li><a href="/vscode/p1">VS Code 설치하기</a></li>
-            <li><a href="/vscode/p2">프로젝트 디렉토리 설정하기</a></li>
+            <li><a href="/vscodeLessons/p1">VS Code 설치하기</a></li>
+            <li><a href="/vscodeLessons/p2">프로젝트 디렉토리 설정하기</a></li>
           </ul>
           <h3><FaHtml5/> HTML</h3>
           <ul className="global-nav_list">

@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import "./reset.css";
-import "./globals.scss";
 export const metadata: Metadata = {
   title: "HTML CSS/SCSS Lesson",
   description: "HTML/CSS/SCSS lesson for Next.js",

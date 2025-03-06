@@ -27,7 +27,7 @@ body {
 
   p {
     font-family: 'Noto Serif KR', serif;
-
+    padding: 4px 0;
   }
 }
 
@@ -50,12 +50,19 @@ body {
     h1 {
       font-size: 20px;
       line-height: 24px;
+      display: flex;
+      align-items: center;
+
+      svg {
+        width: 40px;
+        font-size: 30px;
+      }
     }
   }
 }
 
 .page {
-  padding: 64px 0;
+  padding: 80px 0 100px;
 
   nav {
     width: 90%;
@@ -104,6 +111,11 @@ body {
       }
     }
   }
+
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .pageNavigation {
@@ -114,4 +126,19 @@ body {
   bottom: 0;
   width: 100%;
   z-index: 1000;
+
+  nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      width: 25%;
+      font-size: 20px;
+      border-radius: 5px;
+      height: 40px;
+    }
+  }
 }
