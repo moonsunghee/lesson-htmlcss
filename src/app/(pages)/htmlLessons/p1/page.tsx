@@ -10,12 +10,9 @@ export default function Html_P1() {
   <요소명 특성명="특성값">문자</요소명>
   <element attribute="value">TEXT</element>
   `;
-  const css_1 = `
-  properties: value;
-  `;
   return (
     <>
-      <PageHeader title={"html"} iconType={2} />
+      <PageHeader title={"html이란?"} iconType={2} />
       <div className="page">
         <section>
           <p>
@@ -26,12 +23,6 @@ export default function Html_P1() {
         </section>
         <section>
           <h3>HyperText Markup Language</h3>
-          <p>
-            HTML을 직역하면 초월 문자를 표기하는 언어라는 뜻을 가지고 있습니다.<br />
-            초월문자, 즉 <b>Hyper Text</b>는 <b>Text</b>의 기본 기능이라 할 수 있는 ‘읽기, 쓰기’ 이외 다른 기능이 추가된 형식의 문자로 <b>Text</b>와 구분할 수 있습니다.<br />
-            <b>Hyper Text</b>를 표기할 때에는 &lt;, &gt; 를 사용하고 이러한 상태를 <b>태그(Tag), 요소(Element), 객체(Object)</b> 라 부릅니다.
-          </p>
-          
           <p>
             HTML을 직역하면 초월 문자를 표기하는 언어라는 뜻을 가지고 있습니다.<br />
             초월문자, 즉 <b>Hyper Text</b>는 <b>Text</b>의 기본 기능이라 할 수 있는 ‘읽기, 쓰기’ 이외 다른 기능이 추가된 형식의 문자로 <b>Text</b>와 구분할 수 있습니다.<br />
@@ -53,7 +44,7 @@ export default function Html_P1() {
           <p>
           어떤 문자를 제목으로 표현 하려면 Hyper Text인 태그로 표기하여 제목으로 표현 할 수 있습니다.
           </p>
-          <SyntaxHighlighter language="html" style={dracula}>
+          <SyntaxHighlighter language="html" style={dracula} customStyle={{ padding: 0 }}>
             {html_1}
           </SyntaxHighlighter>
           <p>
@@ -65,7 +56,7 @@ export default function Html_P1() {
           <p>
           태그 + 내용으로 된 형태를 요소라 하고 태그를 분석하면 다음과 같이 볼 수 있습니다.
           </p>
-          <SyntaxHighlighter language="html" style={dracula}>
+          <SyntaxHighlighter language="html" style={dracula} customStyle={{ padding: 0 }}>
             {html_2}
           </SyntaxHighlighter>
           <p>

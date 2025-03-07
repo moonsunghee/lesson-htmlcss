@@ -11,7 +11,9 @@ export default function VSCode_P2() {
         프로젝트를 개발하기 위한 폴더를 디렉토리라 하고 폴더 이름에 따라 디렉토리 역할이 나뉩니다.
         디렉토리 폴더는 프로젝트이름 혹은 파일의 종류 별로 구분 합니다.
         </p>
-        <img src="/images/testimg.png" alt="VS Code 설치" style={{width:"100%", height:"auto"}}/>
+        <div className="img-wrap">
+        <img src="/images/vsc-03.png" alt="폴더구조" style={{width:"100%", height:"auto"}}/>
+        </div>
         <p>
         각 디렉토리(폴더) 역할을 살펴 보면 다음과 같습니다.
         </p>
