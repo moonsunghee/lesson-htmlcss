@@ -39,16 +39,6 @@ export default function Html_P2() {
           <h4>Lorem Ipsum</h4>
           <h5>Lorem Ipsum</h5>
           <h6>Lorem Ipsum</h6>
-          <li>&nbsp;•&nbsp;&nbsp;unordered list</li>
-          <li>&nbsp;•&nbsp;&nbsp;unordered list</li>
-          <ol>
-            <li>1.&nbsp;ordered list</li>
-            <li>2.&nbsp;ordered list</li>
-          </ol>
-          <ul>
-            <li>&nbsp;•&nbsp;&nbsp;unordered list</li>
-            <li>&nbsp;•&nbsp;&nbsp;unordered list</li>
-          </ul>
         </div>
       </section>
       <section>
