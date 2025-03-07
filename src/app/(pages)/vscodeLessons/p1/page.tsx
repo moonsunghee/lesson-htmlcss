@@ -17,7 +17,8 @@ export default function VSCode_P1() {
       <section>
         <h3>VS Code - 추가 작업 선택</h3>
         <p>VS CODE설치 진행중 추가 작업에서 위와 같이 체크 후 설치를 진행하도록 합니다. 나중에 폴더에서 "코드로 열기"에 필요한 사항입니다.</p>
-        <img src="/images/vscode/vscode_install.png" alt="VS Code 설치" />
+        <div className="img-box"><img src="/images/vsc-01.png" alt="VS Code 설치" style={{width:"100%", height:"auto"}}/></div>
+        <div className="img-box"><img src="/images/vsc-02.png" alt="VS Code 설치" style={{width:"100%", height:"auto"}}/></div>
         <article>
           <h4>확장기능</h4>
           <p>VS CODE 왼쪽 패널에서 메뉴아이콘중 확장기능 아이콘을 클릭하여 확장 프로그램을 추가 설치 합니다. 추천 확장 프로그램은 다음과 같습니다.</p>

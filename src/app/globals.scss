@@ -4,6 +4,10 @@
 
 body {
   background-color: var(--bg-color);
+
+  img {
+    display: block;
+  }
 }
 
 .pageHeader {
@@ -48,7 +52,19 @@ body {
   padding-bottom: 20px;
 
   section {
+    // @include layout-center;
+  }
+
+  h3,
+  h4,
+  p,
+  ol,
+  .img-box {
     @include layout-center;
+  }
+
+  pre {
+    background-color: #666;
   }
 }
 
