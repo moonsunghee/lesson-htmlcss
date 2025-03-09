@@ -1,9 +1,9 @@
 import PageHeader from "@/src/components/PageHeader";
 
-export default function Css_P1() {
+export default function Css_P4() {
   return (
     <>
-    <PageHeader title={"CSS"} iconType={3} />
+    <PageHeader title={"필터선택자자 "} iconType={3} />
     <div className="page">
       <section>
         <p></p>

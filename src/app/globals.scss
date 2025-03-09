@@ -1,5 +1,4 @@
 @import '../styles/_mixin';
-@import './reset';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
 
 html,
@@ -89,7 +88,12 @@ video {
   vertical-align: baseline;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #efefef;
+  overflow: hidden;
+  position: relative;
+  z-index: -10;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -104,14 +108,6 @@ nav,
 section {
   display: block;
 }
-
-body {
-  background-color: var(--bg-color);
-  overflow: hidden;
-  position: relative;
-  z-index: -10;
-}
-
 ol,
 ul {
   list-style: none;
