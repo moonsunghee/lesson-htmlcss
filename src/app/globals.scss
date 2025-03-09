@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 @import '../styles/_mixin';
+=======
+@import './_mixin';
+@import './reset.css';
+>>>>>>> Stashed changes
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
 
 html,
@@ -224,11 +229,15 @@ img {
 }
 
 .pageNavigation {
+<<<<<<< Updated upstream
+=======
+  width: 100%;
+  background-color: var(--bg-color);
+>>>>>>> Stashed changes
   background-color: #fff;
   padding: 20px 0;
   position: fixed;
   bottom: 0;
-  width: 100%;
   z-index: 1000;
 
   nav {
