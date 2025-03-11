@@ -4,6 +4,8 @@ import { vscDarkPlus, vs } from "react-syntax-highlighter/dist/cjs/styles/prism"
 export default function Css_P2() {
   const prism_css = vscDarkPlus;
   const prism_html = vs;
+  const hlStyles = { padding: 0, fontSize: "16px" };
+
   const css_1 = `
   *{ property: value; }
   `;
@@ -44,10 +46,10 @@ export default function Css_P2() {
   ];
   const code_7 = [`
   tagA.idName{property: value;}
-tagB.className{property: value;}
+  tagB.className{property: value;}
   `,`
   <tagA id="idName">Lorem Ipsum</tagA>
-<tagB class="className">Lorem Ipsum</tagB>
+  <tagB class="className">Lorem Ipsum</tagB>
   `
   ];
   return (
@@ -55,8 +57,8 @@ tagB.className{property: value;}
     <PageHeader title={"기본선택자"} iconType={3} />
     <div className="page">
       <section>
-        <h3>전체 선택자 : *{}</h3>
-        <SyntaxHighlighter language="css" style={prism_css} customStyle={{ padding: 0 }}>
+        <h3>전체 선택자 : *&#123;&#125;</h3>
+        <SyntaxHighlighter language="css" style={prism_css} customStyle={hlStyles}>
           {css_1}
         </SyntaxHighlighter>
         <p>
@@ -64,11 +66,11 @@ tagB.className{property: value;}
         </p>
       </section>
       <section>
-        <h3>타입 선택자 : 요소명{} or 태그명{}</h3>
-        <SyntaxHighlighter language="css" style={prism_css} customStyle={{ padding: 0 }}>
+        <h3>타입 선택자 : 요소명&#123;&#125; or 태그명&#123;&#125;</h3>
+        <SyntaxHighlighter language="css" style={prism_css} customStyle={hlStyles}>
           {code_2[0]}
         </SyntaxHighlighter>
-        <SyntaxHighlighter language="html" style={prism_html} customStyle={{ padding: 0 }}>
+        <SyntaxHighlighter language="html" style={prism_html} customStyle={hlStyles}>
           {code_2[1]}
         </SyntaxHighlighter>
         <p>
@@ -76,11 +78,11 @@ tagB.className{property: value;}
         </p>
       </section>
       <section>
-        <h3>아이디 선택자 : #아이디명{}</h3>
-        <SyntaxHighlighter language="css" style={prism_css} customStyle={{ padding: 0 }}>
+        <h3>아이디 선택자 : #아이디명&#123;&#125;</h3>
+        <SyntaxHighlighter language="css" style={prism_css} customStyle={hlStyles}>
           {code_3[0]}
         </SyntaxHighlighter>
-        <SyntaxHighlighter language="html" style={prism_html} customStyle={{ padding: 0 }}>
+        <SyntaxHighlighter language="html" style={prism_html} customStyle={hlStyles}>
           {code_3[1]}
         </SyntaxHighlighter>
         <p>
@@ -89,11 +91,11 @@ tagB.className{property: value;}
         </p>
       </section>
       <section>
-        <h3>클래스 선택자 : .클래스명{}</h3>
-        <SyntaxHighlighter language="css" style={prism_css} customStyle={{ padding: 0 }}>
+        <h3>클래스 선택자 : .클래스명&#123;&#125;</h3>
+        <SyntaxHighlighter language="css" style={prism_css} customStyle={hlStyles}>
           {code_4[0]}
         </SyntaxHighlighter>
-        <SyntaxHighlighter language="html" style={prism_html} customStyle={{ padding: 0 }}>
+        <SyntaxHighlighter language="html" style={prism_html} customStyle={hlStyles}>
           {code_4[1]}
         </SyntaxHighlighter>
         <p>
@@ -102,12 +104,12 @@ tagB.className{property: value;}
         </p>
       </section>
       <section>
-        <h3>그룹 선택자 : 선택자,선택자,선택자{}</h3>
+        <h3>그룹 선택자 : 선택자,선택자,선택자&#123;&#125;</h3>
 
-        <SyntaxHighlighter language="css" style={prism_css} customStyle={{ padding: 0 }}>
+        <SyntaxHighlighter language="css" style={prism_css} customStyle={hlStyles}>
           {code_5[0]}
         </SyntaxHighlighter>
-        <SyntaxHighlighter language="html" style={prism_html} customStyle={{ padding: 0 }}>
+        <SyntaxHighlighter language="html" style={prism_html} customStyle={hlStyles}>
           {code_5[1]}
         </SyntaxHighlighter>
         <p>
@@ -115,12 +117,12 @@ tagB.className{property: value;}
         </p>
       </section>
       <section>
-        <h3>종속 선택자 : 요소#아이디명{} or 요소.클래스명{}</h3>
+        <h3>종속 선택자 : 요소#아이디명&#123;&#125; or 요소.클래스명&#123;&#125;</h3>
 
-        <SyntaxHighlighter language="css" style={prism_css} customStyle={{ padding: 0 }}>
+        <SyntaxHighlighter language="css" style={prism_css} customStyle={hlStyles}>
           {code_6[0]}
         </SyntaxHighlighter>
-        <SyntaxHighlighter language="html" style={prism_html} customStyle={{ padding: 0}}>
+        <SyntaxHighlighter language="html" style={prism_html} customStyle={{ padding: 0, fontSize: "16px"}}>
           {code_6[1]}
         </SyntaxHighlighter>
         <p>

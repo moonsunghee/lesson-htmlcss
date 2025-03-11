@@ -1,9 +1,4 @@
-<<<<<<< Updated upstream
 @import '../styles/_mixin';
-=======
-@import './_mixin';
-@import './reset.css';
->>>>>>> Stashed changes
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
 
 html,
@@ -93,12 +88,14 @@ video {
   vertical-align: baseline;
   box-sizing: border-box;
 }
+
 body {
   background-color: #efefef;
   overflow: hidden;
   position: relative;
   z-index: -10;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -113,6 +110,7 @@ nav,
 section {
   display: block;
 }
+
 ol,
 ul {
   list-style: none;
@@ -229,12 +227,8 @@ img {
 }
 
 .pageNavigation {
-<<<<<<< Updated upstream
-=======
   width: 100%;
-  background-color: var(--bg-color);
->>>>>>> Stashed changes
-  background-color: #fff;
+  background-color: #efefef;
   padding: 20px 0;
   position: fixed;
   bottom: 0;
